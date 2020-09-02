@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tv_title_t"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="考题"
+        android:textSize="22sp" />
+
+    <EditText
+
+        android:id="@+id/question_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/tv_title_t"
+        android:layout_toRightOf="@id/tv_title_t"
+        android:hint="请处输入题目"
+        android:textSize="22sp" />
+
+    <CheckBox
+        android:id="@+id/cb_option_a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/question_title"
+        android:text="A"
+        android:textSize="22sp" />
+
+    <EditText
+        android:id="@+id/question_A"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/question_title"
+        android:layout_alignBaseline="@id/cb_option_a"
+        android:layout_toRightOf="@id/cb_option_a"
+        android:ems="10"
+        android:hint="请输入选项A的内容"
+        android:textSize="22sp" />
+
+    <CheckBox
+        android:id="@+id/cb_option_b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/question_A"
+        android:text="B"
+        android:textSize="22sp" />
+
+    <EditText
+        android:id="@+id/question_B"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/question_A"
+        android:layout_alignBaseline="@id/cb_option_b"
+        android:layout_toRightOf="@id/cb_option_b"
+        android:ems="10"
+        android:hint="请输入选项B的内容 "
+        android:textSize="22dp" />
+
+    <CheckBox
+        android:id="@+id/cb_option_c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/question_B"
+        android:text="C"
+        android:textSize="22sp" />
+
+    <EditText
+        android:id="@+id/question_C"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/question_B"
+        android:layout_alignBaseline="@id/cb_option_c"
+        android:layout_toRightOf="@id/cb_option_c"
+        android:ems="10"
+        android:hint="请输入选项C的内容"
+        android:textSize="22sp" />
+
+    <CheckBox
+        android:id="@+id/cb_option_d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/question_C"
+        android:text="D"
+        android:textSize="22sp" />
+
+    <EditText
+        android:id="@+id/question_D"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/question_C"
+        android:layout_alignBaseline="@id/cb_option_d"
+        android:layout_toRightOf="@id/cb_option_d"
+        android:ems="10"
+        android:hint="请输入选项D的内容 "
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/text_jiexi_t"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/question_D"
+        android:layout_alignParentLeft="true"
+        android:text="解析"
+        android:textSize="22sp" />
+
+    <EditText
+        android:id="@+id/jiexi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/question_D"
+        android:layout_alignBaseline="@id/text_jiexi_t"
+        android:layout_toRightOf="@id/text_jiexi_t"
+        android:ems="10"
+        android:hint="请输入解析 "
+        android:textSize="22sp" />
+
+    <com.xuexiang.xui.widget.button.roundbutton.RoundButton
+        android:id="@+id/submit_write"
+        style="@style/RoundButton.Auto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/jiexi"
+        android:layout_marginTop="14dp"
+        android:layout_marginRight="16dp"
+        android:layout_toLeftOf="@+id/back_write"
+        android:text="提交"
+        android:textSize="22dp" />
+
+
+    <com.xuexiang.xui.widget.button.roundbutton.RoundButton
+        android:id="@+id/back_write"
+        style="@style/RoundButton.Auto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/submit_write"
+        android:layout_alignBottom="@+id/submit_write"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="89dp"
+        android:text="返回"
+        android:textSize="22dp" />
+
+
+</RelativeLayout>

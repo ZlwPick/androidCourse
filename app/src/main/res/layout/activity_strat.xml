@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="考题"
+            android:textSize="18sp">
+
+            <requestFocus />
+        </TextView>
+        <!--  android:layout_marginTop="2dp" 控件间的距离 -->
+        <RadioGroup
+            android:id="@+id/rg_base"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp">
+
+            <RadioButton
+                android:id="@+id/rb_option_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="选项"
+                android:textSize="15sp" />
+
+            <RadioButton
+                android:id="@+id/rb_option_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="选项"
+                android:textSize="15sp" />
+
+            <RadioButton
+                android:id="@+id/rb_option_c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="选项"
+                android:textSize="15sp" />
+
+            <RadioButton
+                android:id="@+id/rb_option_d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="选项"
+                android:textSize="15sp" />
+        </RadioGroup>
+        <!-- android:text="答案" -->
+        <TextView
+            android:id="@+id/text_answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp" />
+        <!-- android:text="解析" -->
+        <TextView
+            android:id="@+id/text_jiexi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+
+    <com.xuexiang.xui.widget.button.roundbutton.RoundButton
+        android:id="@+id/btn_previous"
+        style="@style/RoundButton.Auto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:textSize="25dp"
+        android:text="上一题" />
+
+
+    <com.xuexiang.xui.widget.button.roundbutton.RoundButton
+        android:id="@+id/btn_look"
+        style="@style/RoundButton.Auto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:textSize="25dp"
+        android:text="查看答案" />
+
+    <com.xuexiang.xui.widget.button.roundbutton.RoundButton
+        android:id="@+id/btn_next"
+        style="@style/RoundButton.Auto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:textSize="25dp"
+        android:text="下一题" />
+
+</RelativeLayout>

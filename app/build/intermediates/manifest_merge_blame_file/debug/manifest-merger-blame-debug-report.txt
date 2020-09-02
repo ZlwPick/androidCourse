@@ -1,0 +1,133 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.quetion"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->C:\Users\1171676294\Desktop\Quetion1\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\1171676294\Desktop\Quetion1\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->C:\Users\1171676294\Desktop\Quetion1\app\src\main\AndroidManifest.xml:7:5-79
+11-->C:\Users\1171676294\Desktop\Quetion1\app\src\main\AndroidManifest.xml:7:22-76
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->C:\Users\1171676294\Desktop\Quetion1\app\src\main\AndroidManifest.xml:8:5-81
+12-->C:\Users\1171676294\Desktop\Quetion1\app\src\main\AndroidManifest.xml:8:22-78
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->C:\Users\1171676294\Desktop\Quetion1\app\src\main\AndroidManifest.xml:9:5-80
+13-->C:\Users\1171676294\Desktop\Quetion1\app\src\main\AndroidManifest.xml:9:22-77
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->C:\Users\1171676294\Desktop\Quetion1\app\src\main\AndroidManifest.xml:8:5-81
+14-->C:\Users\1171676294\Desktop\Quetion1\app\src\main\AndroidManifest.xml:8:22-78
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->C:\Users\1171676294\Desktop\Quetion1\app\src\main\AndroidManifest.xml:11:5-67
+15-->C:\Users\1171676294\Desktop\Quetion1\app\src\main\AndroidManifest.xml:11:22-64
+16
+17    <application
+17-->C:\Users\1171676294\Desktop\Quetion1\app\src\main\AndroidManifest.xml:13:5-56:19
+18        android:name="com.example.quetion.MyApplication"
+18-->C:\Users\1171676294\Desktop\Quetion1\app\src\main\AndroidManifest.xml:14:9-38
+19        android:allowBackup="true"
+19-->C:\Users\1171676294\Desktop\Quetion1\app\src\main\AndroidManifest.xml:15:9-35
+20        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+20-->[com.android.support:support-compat:28.0.0] C:\Users\1171676294\.gradle\caches\transforms-2\files-2.1\dd1cf78f22bdd94f550130b281f27c97\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+21        android:debuggable="true"
+22        android:icon="@drawable/ic_launcher"
+22-->C:\Users\1171676294\Desktop\Quetion1\app\src\main\AndroidManifest.xml:16:9-45
+23        android:label="@string/app_name"
+23-->C:\Users\1171676294\Desktop\Quetion1\app\src\main\AndroidManifest.xml:17:9-41
+24        android:testOnly="true"
+25        android:theme="@style/AppTheme" >
+25-->C:\Users\1171676294\Desktop\Quetion1\app\src\main\AndroidManifest.xml:18:9-40
+26        <activity android:name="com.example.quetion.RegisterActivity" />
+26-->C:\Users\1171676294\Desktop\Quetion1\app\src\main\AndroidManifest.xml:19:9-63
+26-->C:\Users\1171676294\Desktop\Quetion1\app\src\main\AndroidManifest.xml:19:19-51
+27        <activity android:name="com.example.quetion.LoginActivity" />
+27-->C:\Users\1171676294\Desktop\Quetion1\app\src\main\AndroidManifest.xml:20:9-51
+27-->C:\Users\1171676294\Desktop\Quetion1\app\src\main\AndroidManifest.xml:20:19-48
+28        <activity android:name="com.example.quetion.SplashActivity" >
+28-->C:\Users\1171676294\Desktop\Quetion1\app\src\main\AndroidManifest.xml:21:9-27:20
+28-->C:\Users\1171676294\Desktop\Quetion1\app\src\main\AndroidManifest.xml:21:19-49
+29            <intent-filter>
+29-->C:\Users\1171676294\Desktop\Quetion1\app\src\main\AndroidManifest.xml:22:13-26:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->C:\Users\1171676294\Desktop\Quetion1\app\src\main\AndroidManifest.xml:23:17-69
+30-->C:\Users\1171676294\Desktop\Quetion1\app\src\main\AndroidManifest.xml:23:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->C:\Users\1171676294\Desktop\Quetion1\app\src\main\AndroidManifest.xml:25:17-77
+32-->C:\Users\1171676294\Desktop\Quetion1\app\src\main\AndroidManifest.xml:25:27-74
+33            </intent-filter>
+34        </activity>
+35        <activity
+35-->C:\Users\1171676294\Desktop\Quetion1\app\src\main\AndroidManifest.xml:28:9-31:48
+36            android:name="com.example.quetion.MainActivity"
+36-->C:\Users\1171676294\Desktop\Quetion1\app\src\main\AndroidManifest.xml:29:13-41
+37            android:icon="@drawable/photo1"
+37-->C:\Users\1171676294\Desktop\Quetion1\app\src\main\AndroidManifest.xml:30:13-44
+38            android:label="@string/app_name" />
+38-->C:\Users\1171676294\Desktop\Quetion1\app\src\main\AndroidManifest.xml:31:13-45
+39        <activity
+39-->C:\Users\1171676294\Desktop\Quetion1\app\src\main\AndroidManifest.xml:32:9-41:20
+40            android:name="com.example.quetion.WritrActivity"
+40-->C:\Users\1171676294\Desktop\Quetion1\app\src\main\AndroidManifest.xml:33:13-42
+41            android:icon="@drawable/photo2"
+41-->C:\Users\1171676294\Desktop\Quetion1\app\src\main\AndroidManifest.xml:34:13-44
+42            android:label="write" >
+42-->C:\Users\1171676294\Desktop\Quetion1\app\src\main\AndroidManifest.xml:35:13-34
+43            <intent-filter>
+43-->C:\Users\1171676294\Desktop\Quetion1\app\src\main\AndroidManifest.xml:36:13-40:29
+44                <action android:name="com.question.write" />
+44-->C:\Users\1171676294\Desktop\Quetion1\app\src\main\AndroidManifest.xml:37:17-61
+44-->C:\Users\1171676294\Desktop\Quetion1\app\src\main\AndroidManifest.xml:37:25-58
+45
+46                <category android:name="android.intent.category.DEFAULT" />
+46-->C:\Users\1171676294\Desktop\Quetion1\app\src\main\AndroidManifest.xml:39:17-76
+46-->C:\Users\1171676294\Desktop\Quetion1\app\src\main\AndroidManifest.xml:39:27-73
+47            </intent-filter>
+48        </activity>
+49        <activity
+49-->C:\Users\1171676294\Desktop\Quetion1\app\src\main\AndroidManifest.xml:42:9-45:38
+50            android:name="com.example.quetion.StartActivity"
+50-->C:\Users\1171676294\Desktop\Quetion1\app\src\main\AndroidManifest.xml:43:13-42
+51            android:icon="@drawable/photo2"
+51-->C:\Users\1171676294\Desktop\Quetion1\app\src\main\AndroidManifest.xml:44:13-44
+52            android:label="加油哦，亲！" />
+52-->C:\Users\1171676294\Desktop\Quetion1\app\src\main\AndroidManifest.xml:45:13-35
+53        <activity
+53-->C:\Users\1171676294\Desktop\Quetion1\app\src\main\AndroidManifest.xml:46:9-55:20
+54            android:name="com.example.quetion.DuoxuanActivity"
+54-->C:\Users\1171676294\Desktop\Quetion1\app\src\main\AndroidManifest.xml:47:13-44
+55            android:icon="@drawable/photo2"
+55-->C:\Users\1171676294\Desktop\Quetion1\app\src\main\AndroidManifest.xml:48:13-44
+56            android:label="加油哦，亲！" >
+56-->C:\Users\1171676294\Desktop\Quetion1\app\src\main\AndroidManifest.xml:49:13-35
+57            <intent-filter>
+57-->C:\Users\1171676294\Desktop\Quetion1\app\src\main\AndroidManifest.xml:50:13-54:29
+58                <action android:name="com.question.duoxuan" />
+58-->C:\Users\1171676294\Desktop\Quetion1\app\src\main\AndroidManifest.xml:51:17-63
+58-->C:\Users\1171676294\Desktop\Quetion1\app\src\main\AndroidManifest.xml:51:25-60
+59
+60                <category android:name="android.intent.category.DEFAULT" />
+60-->C:\Users\1171676294\Desktop\Quetion1\app\src\main\AndroidManifest.xml:39:17-76
+60-->C:\Users\1171676294\Desktop\Quetion1\app\src\main\AndroidManifest.xml:39:27-73
+61            </intent-filter>
+62        </activity>
+63        <activity
+63-->[com.github.xuexiangjys:XUI:1.0.9-support] C:\Users\1171676294\.gradle\caches\transforms-2\files-2.1\af082256a4e9a67fbf5ed7f4da2f8059\XUI-1.0.9-support\AndroidManifest.xml:10:9-12:75
+64            android:name="com.xuexiang.xui.widget.imageview.preview.ui.PreviewActivity"
+64-->[com.github.xuexiangjys:XUI:1.0.9-support] C:\Users\1171676294\.gradle\caches\transforms-2\files-2.1\af082256a4e9a67fbf5ed7f4da2f8059\XUI-1.0.9-support\AndroidManifest.xml:11:13-88
+65            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+65-->[com.github.xuexiangjys:XUI:1.0.9-support] C:\Users\1171676294\.gradle\caches\transforms-2\files-2.1\af082256a4e9a67fbf5ed7f4da2f8059\XUI-1.0.9-support\AndroidManifest.xml:12:13-72
+66        <activity
+66-->[com.github.xuexiangjys:XUI:1.0.9-support] C:\Users\1171676294\.gradle\caches\transforms-2\files-2.1\af082256a4e9a67fbf5ed7f4da2f8059\XUI-1.0.9-support\AndroidManifest.xml:13:9-15:75
+67            android:name="com.xuexiang.xui.widget.imageview.preview.ui.VideoPlayerActivity"
+67-->[com.github.xuexiangjys:XUI:1.0.9-support] C:\Users\1171676294\.gradle\caches\transforms-2\files-2.1\af082256a4e9a67fbf5ed7f4da2f8059\XUI-1.0.9-support\AndroidManifest.xml:14:13-92
+68            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+68-->[com.github.xuexiangjys:XUI:1.0.9-support] C:\Users\1171676294\.gradle\caches\transforms-2\files-2.1\af082256a4e9a67fbf5ed7f4da2f8059\XUI-1.0.9-support\AndroidManifest.xml:15:13-72
+69    </application>
+70
+71</manifest>
